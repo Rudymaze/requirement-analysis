@@ -18,4 +18,18 @@ The importance of requirement analysis in software development life cycle (SDLC)
 - It helps to improve the quality of the software product by ensuring that it meets the requirements of the stakeholders
 - It helps to reduce the cost of software development by identifying and addressing potential issues early on.
 
-# Requirement Analysis Process
+# Why is Requirement Analysis Important?
+
+**Reasons why Requirement Analysis is critical in the SDLC**
+
+## Clarity and Understanding
+
+It helps in understanding what the stakeholders expect from the software, reducing ambiguity.
+
+## Basis for Design and Development
+
+It serves as a foundation for the design and development of the software product.
+
+## Cost and Time Estimation
+
+Facilitates accurate estimation of project cost, resources, and time.

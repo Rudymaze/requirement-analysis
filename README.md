@@ -83,3 +83,49 @@ Examples: Performance, security, scalability, usability, reliability.
 - Scalability: The system should be able to scale horizontally to handle increased traffic.
 - Usability: The application should have an intuitive UI/UX, making it easy for users to navigate and perform tasks.
 - Reliability: The system should have an uptime of 99.9% and recover quickly from any failures.
+
+# Use Case Diagrams.
+
+A Use Case Diagram is a visual representation in Unified Modeling Language (UML) that illustrates the interactions between actors (users or external systems) and a system to achieve specific goals. It captures the functional requirements of a system by showing:
+
+Actors – Who interacts with the system (e.g., users, admins, third-party services).
+
+Use Cases – What the system does (e.g., "Make Booking," "Process Payment").
+
+Relationships – How actors and use cases connect (e.g., associations, dependencies).
+
+# Benefits of Use Case Diagrams
+
+## Clarifies System Functionality
+
+Provides a high-level overview of what the system does without technical details.
+
+Helps stakeholders (developers, clients, testers) align on requirements.
+
+## Identifies Actors and Interactions
+
+Clearly defines who uses the system (e.g., customers, admins) and their goals.
+
+## Supports Requirement Analysis
+
+Bridges the gap between business needs and technical implementation.
+
+Helps detect missing or redundant features early.
+
+## Improves Communication
+
+Visual and intuitive, making it easier to discuss with non-technical teams.
+
+## Guides Development & Testing
+
+Serves as a reference for creating test cases (e.g., "Can a guest cancel a booking?").
+
+Helps prioritize features during development.
+
+## Scalable & Modular
+
+Use cases can be broken into smaller sub-functions (e.g., "Payment" includes "Validate Card").
+
+# Case Diagram
+
+![alt text](Image/alx-booking-uc.png)

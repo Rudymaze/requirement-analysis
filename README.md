@@ -130,8 +130,6 @@ Use cases can be broken into smaller sub-functions (e.g., "Payment" includes "Va
 
 ![GitHub Logo](alx-booking-uc.png)
 
-<!-- ![Image](https://github.com/user-attachments/assets/6ee0a3a5-f454-493e-af5a-069e7fa4f56e) -->
-
 # Acceptance Criteria
 
 Acceptance Criteria (AC) are a set of conditions that a software feature must meet to be considered complete and acceptable to stakeholders. They act as a contract between developers, testers, product owners, and clients, ensuring clarity and reducing ambiguity in requirements.

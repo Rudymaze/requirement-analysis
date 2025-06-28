@@ -128,5 +128,5 @@ Use cases can be broken into smaller sub-functions (e.g., "Payment" includes "Va
 
 # Case Diagram
 
-![alt text](alx-booking-uc.png)
+![alx-booking-uc.png]
 ![Image](https://github.com/user-attachments/assets/6ee0a3a5-f454-493e-af5a-069e7fa4f56e)

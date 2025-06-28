@@ -128,7 +128,7 @@ Use cases can be broken into smaller sub-functions (e.g., "Payment" includes "Va
 
 # Case Diagram
 
-![GitHub Logo](./image/alx-booking-uc.png)
+![GitHub Logo](alx-booking-uc.png)
 
 <!-- ![Image](https://github.com/user-attachments/assets/6ee0a3a5-f454-493e-af5a-069e7fa4f56e) -->
 

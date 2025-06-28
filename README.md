@@ -130,3 +130,101 @@ Use cases can be broken into smaller sub-functions (e.g., "Payment" includes "Va
 
 ![alx-booking-uc.png]
 ![Image](https://github.com/user-attachments/assets/6ee0a3a5-f454-493e-af5a-069e7fa4f56e)
+
+# Acceptance Criteria
+
+Acceptance Criteria (AC) are a set of conditions that a software feature must meet to be considered complete and acceptable to stakeholders. They act as a contract between developers, testers, product owners, and clients, ensuring clarity and reducing ambiguity in requirements.
+
+# Why Acceptance Criteria Are Important?
+
+## Clarifies Expectations
+
+Defines exactly what "done" means for a feature.
+
+Avoids misinterpretations between business and technical teams.
+
+## Guides Development & Testing
+
+Developers use AC to implement features correctly.
+
+QA teams rely on AC to write test cases.
+
+## Reduces Scope Creep
+
+Prevents vague or incomplete requirements from derailing a project.
+
+## Improves Stakeholder Alignment
+
+Ensures everyone (clients, product managers, engineers) agrees on success metrics.
+
+## Supports Agile & User Stories
+
+In Agile, AC are attached to user stories (e.g., "As a user, I want to checkout so I can complete my booking.").
+
+# Examples of acceptance criteria for a feature like the Checkout feature in the booking management system
+
+# User Story:
+
+"As a registered user, I want to complete a booking checkout so that I can confirm my reservation."
+
+# Acceptance Criteria:
+
+## Cart Summary Display
+
+✅ The checkout page must display:
+
+    Booking details (date, time, service).
+
+    Total price (including taxes/fees).
+
+    Applied discounts (if any).
+
+## Payment Method Selection
+
+✅ User can choose between:
+
+    Credit/Debit Card
+
+    PayPal
+
+    Wallet Balance (if available)
+
+## Card Validation
+
+✅ If paying by card:
+
+    System validates card number (16 digits), expiry date (future date), and CVV (3-4 digits).
+
+    Invalid card details show an error message.
+
+## Discount Code Application
+
+✅ User can enter a promo code.
+
+✅ Invalid codes display: "Invalid or expired promo code."
+
+✅ Valid codes update the total price.
+
+## Booking Confirmation
+
+✅ After successful payment:
+
+    A confirmation email/SMS is sent.
+
+    Booking appears in the user’s "My Trips" section.
+
+## Error Handling
+
+✅ If payment fails:
+
+    User sees: "Payment failed. Please try again or use another method."
+
+    No booking is created.
+
+## Guest Checkout (Optional)
+
+✅ Guest users can checkout without an account but must provide:
+
+    Email (valid format).
+
+    Phone number (for confirmation).

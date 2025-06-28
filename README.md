@@ -128,4 +128,4 @@ Use cases can be broken into smaller sub-functions (e.g., "Payment" includes "Va
 
 # Case Diagram
 
-![alt text](Image/alx-booking-uc.png)
+![alt text](alx-booking-uc.png)
